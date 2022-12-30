@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Garage</title>
+</head>
+<table style="width:75%" border="3">
+
+        <thead>
+        <tr>
+            <th>userId</th>
+            <th>name</th>
+            <th>carId</th>
+            <th>userIdOvner</th>
+            <th>model</th>
+        </tr>
+        </thead>
+    <tbody>
+
+    <tr th:each="garage: ${garage}">
+        <td th:text="${garage.userId}"></td>
+        <td th:text="${garage.name}"></td>
+        <td th:text="${garage.carId}"></td>
+        <td th:text="${garage.userIdOvner}"></td>
+        <td th:text="${garage.model}"></td>
+
+        </tr>
+    </tbody>
+    </table>
+</html>
