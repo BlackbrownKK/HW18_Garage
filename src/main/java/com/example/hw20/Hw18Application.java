@@ -1,4 +1,4 @@
-package com.example.hw18;
+package com.example.hw20;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

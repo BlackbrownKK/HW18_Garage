@@ -1,8 +1,6 @@
-package com.example.hw18.controller;
+package com.example.hw20.controller;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ControllerTest {
 
